@@ -1,0 +1,528 @@
+Team Daddy
+NO.
+Player
+OFFER AMOUNT
+1
+T.J. Hockenson Min, TE
+$13
+2
+Chris Olave NO, WR
+$7
+19
+Alvin Kamara NO, RB
+$13
+21
+Cooper Kupp LAR, WR
+$51
+31
+Christian McCaffrey SF, RB
+$52
+44
+Graham Gano NYG, K
+$1
+45
+Justin Herbert LAC, QB
+$38
+59
+Kenneth Walker III Sea, RB
+$11
+96
+Gabe Davis Jax, WR
+$5
+124
+Allen Lazard NYJ, WR
+$1
+138
+Jamaal Williams NO, RB
+$2
+142
+Jeff Wilson Jr. Mia, RB
+$1
+148
+Ryan Tannehill Ten, QB
+$1
+152
+Rashaad Penny Phi, RB
+$1
+153
+Rondale Moore Atl, WR
+$2
+155
+Darnell Mooney Atl, WR
+$1
+
+Ders Team
+NO.
+Player
+OFFER AMOUNT
+3
+Trevor Lawrence Jax, QB
+$14
+34
+Bijan Robinson Atl, RB
+$39
+48
+Tee Higgins Cin, WR
+$25
+52
+Rachaad White TB, RB
+$15
+54
+James Cook Buf, RB
+$8
+69
+DK Metcalf Sea, WR
+$24
+70
+DeVonta Smith Phi, WR
+$28
+82
+George Pickens Pit, WR
+$9
+86
+David Montgomery Det, RB
+$7
+89
+Jahan Dotson Wsh, WR
+$10
+106
+Antonio Gibson NE, RB
+$7
+144
+Sam LaPorta Det, TE
+$1
+150
+Nico Collins Hou, WR
+$1
+154
+Chase Claypool Mia, WR
+$1
+157
+Greg Joseph Min, K
+$1
+159
+Zay Jones Jax, WR
+$1
+
+Tyler With a K
+NO.
+Player
+OFFER AMOUNT
+4
+Jalen Hurts Phi, QB
+$35
+5
+Travis Kelce KC, TE
+$31
+22
+Joe Mixon Hou, RB
+$28
+27
+CeeDee Lamb Dal, WR
+$39
+35
+Evan McPherson Cin, K
+$1
+80
+Amari Cooper Cle, WR
+$25
+84
+Cam Akers Min, RB
+$11
+95
+Geno Smith Sea, QB
+$19
+122
+Skyy Moore KC, WR
+$2
+134
+Matthew Stafford LAR, QB
+$2
+135
+Treylon Burks Ten, WR
+$1
+141
+Jakobi Meyers LV, WR
+$2
+149
+Elijah Mitchell SF, RB
+$1
+156
+Adam Thielen Car, WR
+$1
+158
+Kyler Murray Ari, QB
+$1
+160
+Chigoziem Okonkwo Ten, TE
+$1
+
+Brad Jones .
+NO.
+Player
+OFFER AMOUNT
+6
+Lamar Jackson Bal, QB
+$36
+7
+Joe Burrow Cin, QB
+$32
+32
+Jahmyr Gibbs Det, RB
+$25
+40
+Tyler Bass Buf, K
+$2
+43
+Christian Kirk Jax, WR
+$9
+55
+Darren Waller NYG, TE
+$18
+60
+Josh Jacobs GB, RB
+$39
+74
+K.J. Osborn NE, WR
+$2
+81
+Christian Watson GB, WR
+$14
+83
+Jordan Addison Min, WR
+$6
+93
+Zay Flowers Bal, WR
+$4
+109
+Javonte Williams Den, RB
+$8
+113
+Kendre Miller NO, RB
+$1
+133
+C.J. Stroud Hou, QB
+$1
+136
+Dalton Schultz Hou, TE
+$2
+147
+Tyler Boyd Cin, WR
+$1
+
+West Side Hank Mardoukas
+NO.
+Player
+OFFER AMOUNT
+8
+Dallas Goedert Phi, TE
+$8
+9
+Jaylen Waddle Mia, WR
+$16
+28
+Harrison Butker KC, K
+$3
+33
+Josh Allen Buf, QB
+$51
+37
+Calvin Ridley Ten, WR
+$24
+46
+Deebo Samuel SF, WR
+$10
+49
+Jonathan Taylor Ind, RB
+$20
+62
+DeAndre Hopkins Ten, WR
+$11
+67
+Derek Carr NO, QB
+$9
+77
+Dalvin Cook Bal, RB
+$12
+79
+Kyle Pitts Atl, TE
+$6
+100
+Mike Williams NYJ, WR
+$5
+102
+Odell Beckham Jr. FA, WR
+$3
+115
+Courtland Sutton Den, WR
+$6
+117
+Bryce Young Car, QB
+$4
+127
+Brock Purdy SF, QB
+$3
+Western Cowboy
+NO.
+Player
+OFFER AMOUNT
+10
+Austin Ekeler Wsh, RB
+$47
+11
+Breece Hall NYJ, RB
+$21
+51
+A.J. Brown Phi, WR
+$30
+75
+Daniel Jones NYG, QB
+$20
+85
+Dak Prescott Dal, QB
+$17
+87
+Chris Godwin TB, WR
+$11
+90
+Diontae Johnson Car, WR
+$14
+98
+Marquise Brown KC, WR
+$7
+114
+J.K. Dobbins Bal, RB
+$11
+121
+Brian Robinson Jr. Wsh, RB
+$8
+123
+Jordan Love GB, QB
+$5
+128
+Romeo Doubs GB, WR
+$2
+130
+Brett Maher LAR, K
+$1
+139
+Samaje Perine Den, RB
+$1
+146
+Tyler Higbee LAR, TE
+$1
+151
+Zach Charbonnet Sea, RB
+$1
+
+Tommy Want Wingy
+NO.
+Player
+OFFER AMOUNT
+12
+Rhamondre Stevenson NE, RB
+$9
+20
+Ja'Marr Chase Cin, WR
+$48
+36
+Travis Etienne Jr. Jax, RB
+$15
+41
+Saquon Barkley Phi, RB
+$33
+66
+Dameon Pierce Hou, RB
+$10
+71
+Keenan Allen Chi, WR
+$20
+72
+George Kittle SF, TE
+$13
+76
+Terry McLaurin Wsh, WR
+$9
+88
+Miles Sanders Car, RB
+$8
+92
+Jimmy Garoppolo LAR, QB
+$1
+94
+Aaron Rodgers NYJ, QB
+$16
+104
+Brandin Cooks Dal, WR
+$2
+107
+Jaxon Smith-Njigba Sea, WR
+$4
+112
+Jake Elliott Phi, K
+$1
+119
+Khalil Herbert Chi, RB
+$5
+132
+Kenny Pickett Phi, QB
+$3
+
+Munger Games
+NO.
+Player
+OFFER AMOUNT
+13
+Garrett Wilson NYJ, WR
+$6
+14
+Patrick Mahomes KC, QB
+$35
+29
+Deshaun Watson Cle, QB
+$14
+38
+Daniel Carlson LV, K
+$1
+42
+Stefon Diggs Buf, WR
+$46
+53
+Alexander Mattison LV, RB
+$20
+56
+Aaron Jones Min, RB
+$19
+65
+Mark Andrews Bal, TE
+$20
+91
+Tua Tagovailoa Mia, QB
+$11
+97
+Mike Evans TB, WR
+$8
+103
+D'Andre Swift Chi, RB
+$5
+105
+AJ Dillon GB, RB
+$2
+118
+Pat Freiermuth Pit, TE
+$3
+120
+Dalton Kincaid Buf, TE
+$5
+125
+JuJu Smith-Schuster NE, WR
+$4
+137
+Jameson Williams Det, WR
+$1
+
+THICC DADDY
+NO.
+Player
+OFFER AMOUNT
+15
+Tyreek Hill Mia, WR
+$36
+16
+Tony Pollard Ten, RB
+$9
+25
+Davante Adams LV, WR
+$41
+26
+DJ Moore Chi, WR
+$13
+39
+Younghoe Koo Atl, K
+$1
+47
+Russell Wilson Pit, QB
+$10
+57
+Jared Goff Det, QB
+$16
+63
+Brandon Aiyuk SF, WR
+$13
+64
+Kirk Cousins Atl, QB
+$19
+68
+Najee Harris Pit, RB
+$11
+73
+Tyler Lockett Sea, WR
+$13
+78
+James Conner Ari, RB
+$8
+108
+Drake London Atl, WR
+$5
+116
+David Njoku Cle, TE
+$2
+143
+Jerick McKinnon KC, RB
+$2
+145
+Quentin Johnston LAC, WR
+$1
+
+Westside 4life
+NO.
+Player
+OFFER AMOUNT
+17
+Justin Fields Pit, QB
+$6
+18
+Nick Chubb Cle, RB
+$28
+23
+Justin Tucker Bal, K
+$3
+24
+Amon-Ra St. Brown Det, WR
+$33
+30
+Justin Jefferson Min, WR
+$61
+50
+Derrick Henry Bal, RB
+$15
+58
+Evan Engram Jax, TE
+$8
+61
+Anthony Richardson Ind, QB
+$13
+99
+Cole Kmet Chi, TE
+$4
+101
+Isiah Pacheco KC, RB
+$9
+110
+Michael Pittman Jr. Ind, WR
+$5
+111
+Jerry Jeudy Cle, WR
+$5
+126
+Jaylen Warren Pit, RB
+$3
+129
+Michael Thomas NO, WR
+$4
+131
+Sam Howell Sea, QB
+$1
+140
+Tank Bigsby Jax, RB
+$1
