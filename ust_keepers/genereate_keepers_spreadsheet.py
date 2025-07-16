@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #paste in fantasy pros projected auction dollar amt from https://www.fantasypros.com/nfl/auction-values/calculator.php
-#paste into D:\python_data\paste_from_fp.txt
+#paste into DC:\python_data\paste_from_fp.txt
 def get_auction_values_from_fantasy_pros():
 
     #dict to update names to ESPN naming standards
@@ -16,7 +16,7 @@ def get_auction_values_from_fantasy_pros():
     player_dollar_dict ={}
 
     #read file
-    file_path=os.path.join('D:', os.sep, 'python_data')
+    file_path=os.path.join('C:', os.sep, 'python_data')
     file_name = 'paste_from_fp.txt'
     f=open(os.path.join(file_path, file_name))
 
@@ -55,7 +55,7 @@ def get_auction_values_from_fantasy_pros():
 
 #manually copy/paste the names of keepers from last year into a list
 
-file_path=os.path.join('D:', os.sep, 'python_data')
+file_path=os.path.join('C:', os.sep, 'python_data')
 keepers_counter = 0
 
 EAST_previous_keepers = ['Joe Burrow',
