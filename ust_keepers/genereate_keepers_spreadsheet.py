@@ -2,31 +2,84 @@ import sys
 import os
 import pandas as pd
 
+'''
+1-paste in fantasy pros projected auction dollar amt from https://www.fantasypros.com/nfl/auction-values/calculator.php paste into DC:\python_apps\paste_from_fp.txt
+2-update EAST WEST keeper lists from last year. Get from Google sheets
+3-copy/paste draft results from previous year in text file
+4-run it, check the logs. will output a list of the 160 players and projected values that you can copy into spreadsheet
+5-Update years from 1 to 2 or 3 if kept multiple years
+'''
 
-#paste in fantasy pros projected auction dollar amt from https://www.fantasypros.com/nfl/auction-values/calculator.php
-#paste into DC:\python_data\paste_from_fp.txt
+EAST_previous_keepers = [
+'Amon-Ra St. Brown',
+'Tyreek Hill',
+'Jalen Hurts',
+'Garrett Wilson',
+'Lamar Jackson',
+'Chris Olave',
+'Breece Hall',
+'CeeDee Lamb',
+'Kyler Murray',
+'C.J. Stroud',
+'Christian McCaffrey',
+'Drake London',
+'Brock Purdy',
+'Dak Prescott',
+'Rachaad White',
+'Jordan Love',
+'Anthony Richardson',
+'Isiah Pacheco',
+'Bijan Robinson',
+'Travis Etienne Jr.'
+]
+
+WEST_previous_keepers = [
+'Breece Hall',
+'Garrett Wilson',
+'Chris Olave',
+'Tyreek Hill',
+'Travis Etienne Jr.',
+'Derrick Henry',
+'Deebo Samuel Sr.',
+'Dalton Kincaid',
+'Brock Purdy',
+'Kyler Murray',
+'C.J. Stroud',
+'Anthony Richardson',
+'Dak Prescott',
+'Jordan Love',
+'CeeDee Lamb',
+'Nico Collins',
+'Sam LaPorta',
+'Drake London',
+'Isiah Pacheco'
+]
+
+
 def get_auction_values_from_fantasy_pros():
+    #input: player names/values from fantasy pros from pasted file
+    #output: dict of players names/teams/pos/$$ from fantasy pros
 
     #dict to update names to ESPN naming standards
-    name_change = {
+    NAME_CHANGE = {
+        #format is FantasyPros name: ESPN Name
         'Patrick Mahomes II': 'Patrick Mahomes',
-        'Deebo Samuel Sr.': 'Deebo Samuel',
-        'Hollywood Brown': 'Marquise Brown'
+        'Marquise Brown': 'Hollywood Brown'
     }
     player_dollar_dict ={}
 
-    #read file
-    file_path=os.path.join('C:', os.sep, 'python_data')
+    #read file pasted from fantasy pros
+    root_path=os.path.join('C:', os.sep, 'python_apps', 'pryia_keepers_spreadsheet_generation-main', 'ust_keepers')
     file_name = 'paste_from_fp.txt'
-    f=open(os.path.join(file_path, file_name))
+    f=open(os.path.join(root_path, file_name))
 
     for line in f:
 
         #read data lines, and parse out each piece of data
         data=line.split('\n')[0].split('\t')
         name=data[1].split('(')[0][:-1]
-        if name in name_change:
-            name = name_change[name]
+        if name in NAME_CHANGE:
+            name = NAME_CHANGE[name]
         team = data[1].split('(')[1].split('-')[0][:-1]
         position = data[1].split('(')[1].split('-')[1][1:-1]
         auction_dollar = int(data[2].split('$')[1])
@@ -53,50 +106,9 @@ def get_auction_values_from_fantasy_pros():
 
     return (player_dollar_dict)          
 
-#manually copy/paste the names of keepers from last year into a list
-
-file_path=os.path.join('C:', os.sep, 'python_data')
+root_path=os.path.join('C:', os.sep, 'python_apps', 'pryia_keepers_spreadsheet_generation-main',
+                       'ust_keepers')
 keepers_counter = 0
-
-EAST_previous_keepers = ['Joe Burrow',
-'Tony Pollard',
-'Lamar Jackson',
-'Justin Fields',
-'Jalen Hurts',
-'Rhamondre Stevenson',
-'Daniel Jones',
-'Travis Kelce',
-'Nick Chubb',
-'Trevor Lawrence',
-'Deshaun Watson',
-'Garrett Wilson',
-'Tyreek Hill',
-'Amon-Ra St. Brown',
-'Dameon Pierce',
-'DeVonta Smith',
-'Patrick Mahomes',
-'Chris Olave',
-'Miles Sanders',
-'Alexander Mattison']
-
-WEST_previous_keepers = ['Tony Pollard',
-'Justin Fields',
-'Joe Burrow',
-'Rhamondre Stevenson',
-'Patrick Mahomes',
-'Lamar Jackson',
-'Travis Kelce',
-'Nick Chubb',
-'Jalen Hurts',
-'Garrett Wilson',
-'Chris Olave',
-'Breece Hall',
-'Trevor Lawrence',
-'Jaylen Waddle',
-'T.J. Hockenson',
-'Tyreek Hill',
-'Dallas Goedert',
-'Austin Ekeler']
 
 ##UPDATE for east/west
 past_keepers = WEST_previous_keepers
@@ -106,7 +118,7 @@ file_name = 'WEST_espn_draft_copy_paste.txt'
 player_dollar_dict = get_auction_values_from_fantasy_pros()
 
 #read in file
-f=open(os.path.join(file_path, file_name),'r')
+f=open(os.path.join(root_path, file_name),'r')
 draft_results = f.read()
 f.close
 
@@ -148,6 +160,7 @@ for team_id in range (1,11):
             player_name = player_name_team[:-2:][:-1]
 
         #update kept years and price to keep this year
+
         if player_name in past_keepers:
             keepers_counter = keepers_counter + 1
             keptYears = 1
@@ -178,4 +191,4 @@ print("all the above players should be massive drop offs, since drafted last yea
 if keepers_counter != 20:
     print('keepers counter was ' + str(keepers_counter) + '. Which is a problem, should be exactly 20 keepers from last year. 2/team' )
 
-df.to_csv(os.path.join(file_path, (file_name.split('_')[0] + '_output_csv.csv')))
+df.to_csv(os.path.join(root_path, (file_name.split('_')[0] + '_output_csv.csv')))
